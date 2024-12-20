@@ -40,7 +40,7 @@ export default function Testimonials() {
                 <CardDescription>{testimonial.role}</CardDescription>
               </CardHeader>
               <CardContent>
-                <p>"{testimonial.content}"</p>
+                <p>{testimonial.content}</p>
               </CardContent>
             </Card>
           ))}
